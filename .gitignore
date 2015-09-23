@@ -157,3 +157,6 @@ crashlytics-build.properties
 
 # OS X
 .DS_Store
+
+# Assets
+assets
