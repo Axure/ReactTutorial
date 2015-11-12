@@ -1,6 +1,6 @@
 module.exports = {
     entry: {
-        page: './src/pages/card.jsx'
+        page: './pages/card.jsx'
     },
     output: {
         path: __dirname + '/assets/',
