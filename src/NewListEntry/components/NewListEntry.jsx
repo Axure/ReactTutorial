@@ -37,7 +37,7 @@ var ListEntry = React.createClass({
         this.setState({
             value: event.target.value
         });
-    },
+    }
 });
 
 module.exports = ListEntry;
