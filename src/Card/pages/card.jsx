@@ -1,5 +1,6 @@
 var React = require('react');
 var Card = require('../components/Card.jsx');
+var CardList = require('../components/CardList.jsx');
 
 
 var listData = [
@@ -25,5 +26,5 @@ var cardsData = [
 //React.render(
 //    <List entries={listData}/>
 //    , document.body);
-React.render(<Card data={cardData}/>, document.body);
+React.render(<CardList cardsData={cardsData}/>, document.body);
 //React.render(<CardList cardsData={cardsData}/>, document.body);
